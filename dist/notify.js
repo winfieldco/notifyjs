@@ -1,5 +1,6 @@
 /* Notify.js - http://notifyjs.com/ Copyright (c) 2015 MIT */
 (function (factory) {
+	/*
 	// UMD start
 	// https://github.com/umdjs/umd/blob/master/jqueryPluginCommonjs.js
 	if (typeof define === 'function' && define.amd) {
@@ -27,6 +28,8 @@
 		// Browser globals
 		factory(jQuery);
 	}
+	*/	
+  factory(jQuery);
 }(function ($) {
 	//IE8 indexOf polyfill
 	var indexOf = [].indexOf || function(item) {
